@@ -27,6 +27,7 @@ const map = M.map({
 });
 
 map.addControls(['scaleline', 'mouse', 'OverviewMap', 'panzoombar', 'layerswitcher']);
+//map.addControls(['mouse', 'OverviewMap', 'panzoombar', 'layerswitcher']);
 
 const configIECA = {
   open: true,
@@ -71,3 +72,4 @@ const mp = new Mapfooter(configIECA);
 //const mp = new Mapfooter(configAyuntamientoSevilla);
 
 map.addPlugin(mp);
+
