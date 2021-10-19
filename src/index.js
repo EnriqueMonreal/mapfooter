@@ -1,6 +1,6 @@
-import M$plugin$Mapfooter from 'C:/proyectos/aaa/mapfooter/src/facade/js/mapfooter';
-import M$control$MapfooterControl from 'C:/proyectos/aaa/mapfooter/src/facade/js/mapfootercontrol';
-import M$impl$control$MapfooterControl from 'C:/proyectos/aaa/mapfooter/src/impl/ol/js/mapfootercontrol';
+import M$plugin$Mapfooter from 'C:/proyectos/mapfooter/src/facade/js/mapfooter';
+import M$control$MapfooterControl from 'C:/proyectos/mapfooter/src/facade/js/mapfootercontrol';
+import M$impl$control$MapfooterControl from 'C:/proyectos/mapfooter/src/impl/ol/js/mapfootercontrol';
 
 if (!window.M.plugin) window.M.plugin = {};
 if (!window.M.control) window.M.control = {};
